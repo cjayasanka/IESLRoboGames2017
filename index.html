@@ -1,50 +1,29 @@
 <html>
-  <head>
-    <title>IESL RoboGames 2017</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="bootstrap-4.0.0-beta-dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
 
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">IESL RoboGames 2017</a>
-        </div>
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
 
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Add Teams</a></li>
-          <li><a href="#">Timer</a></li>
-        </ul>
-      </div>
-    </nav>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="bootstrap4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/flipclock.css">
+  <script src="js/flipclock.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-    <section class="jumbotron">
-      <div class="container">
+<body>
 
-        <div class="list-group">
-          <a href="#" class="list-group-item active">Team 1</a>
-          <a href="#" class="list-group-item list-group-item-action">Team 2</a>
-          <a href="#" class="list-group-item list-group-item-action">Team 3</a>
-          <a href="#" class="list-group-item list-group-item-action">Team 4</a>
-          <a href="#" class="list-group-item list-group-item-action disabled">Team 5</a>
-        </div>
+  <div id="myDIV" class="header">
+   <h2>IESL Robogames 2017</h2>
+   <input type="text" id="myInput" placeholder="Team Name">
+   <!-- <span onclick="newElement()" class="addBtn">Add</span> -->
+   <button type="button" class="btn btn-dark addBtn" onclick="newElement()">Add</button>
+  </div>
 
-    <div class = "row text-center">
-      <a href="#" class="btn btn-primary">Add Team</a>
-    </div>
+  <ul id="myUL"></ul>
 
-      </div>
-    </section>
-
-    <footer class = "container">
-      <div class="row">
-        <p class="col-sm-4">
-          CSE-UOM
-        </p>
-      </div>
-    </footer>
-
-  </body>
+  <script src="js/script.js"></script>
+</body>
 </html>
