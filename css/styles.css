@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.navbar {
+    margin-bottom: 0px;
+}
+
 .btn-primary {
   color: #2e6da4;
   background-color: #FFFFFF;
@@ -17,8 +21,8 @@ body {
 .jumbotron {
   display: flex;
   align-items: center;
-  height: 350px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
+  height: 100vh;
+  background-image: url('../resources/img/background.jpg');
   background-size: cover;
   background-position: center;
 }
