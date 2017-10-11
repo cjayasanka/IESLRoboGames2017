@@ -34,7 +34,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("Enter team name!");
+    alert("Enter a team name!");
   } else {
     document.getElementById("myUL").appendChild(li);
   }
